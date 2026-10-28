@@ -1,1 +1,2 @@
-udisksctl loop-setup -f /media/hbgong/WD5T-PART4/vda.bin
+sudo udisksctl loop-setup -f /mnt/wd5t-p4/vda.bin
+udisksctl mount -b /dev/loop1
